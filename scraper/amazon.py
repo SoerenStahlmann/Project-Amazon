@@ -101,3 +101,4 @@ def scrape(url, header=HEADER, **kwargs):
     # write data to csv file
     columns = ['title', 'content', 'note', 'rating', 'timestamp']
     to_csv(columns, data)
+
